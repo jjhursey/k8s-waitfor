@@ -2,6 +2,8 @@
 
 To be used in an initContainer section of a Job to prevent the Job from starting before the 'compute' Pods are all running.
 
+ * Available on [DockerHub](https://hub.docker.com/r/jjhursey/k8s-waitfor)
+
 ## Building
 
 Build with the default Kubernetes version (see Dockerfile):
